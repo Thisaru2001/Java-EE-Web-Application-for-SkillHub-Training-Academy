@@ -1,0 +1,100 @@
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: #f4f7fb;
+    color: #1f2937;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.sidebar {
+    background: #0f172a;
+    min-height: 100vh;
+    color: white;
+}
+
+.sidebar a {
+    color: #dbeafe;
+    text-decoration: none;
+    padding: 0.75rem 1rem;
+    display: block;
+    border-radius: 0.75rem;
+    margin: 0.2rem 0;
+}
+
+.sidebar a:hover {
+    background: rgba(255,255,255,0.08);
+    color: white;
+}
+
+.card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 4px 18px rgba(15,23,42,0.06);
+}
+
+.stat-card {
+    background: linear-gradient(135deg, #eff6ff, white);
+    border-left: 5px solid #2563eb;
+}
+
+.btn-primary {
+    background: #2563eb;
+    border-color: #2563eb;
+}
+
+.btn-primary:hover {
+    background: #1d4ed8;
+    border-color: #1d4ed8;
+}
+
+.hero {
+    background: linear-gradient(135deg, #edf4ff, #ffffff);
+    border-radius: 1.25rem;
+    padding: 4rem 2rem;
+}
+
+.auth-card {
+    max-width: 460px;
+    margin: 4rem auto;
+}
+
+.table thead th {
+    background: #f8fafc;
+    color: #334155;
+}
+
+.badge {
+    padding: 0.5rem 0.7rem;
+    border-radius: 999px;
+}
+
+.nav-link {
+    color: #0f172a;
+}
+
+.footer {
+    background: #0f172a;
+    color: #cbd5e1;
+    padding: 2rem 0;
+}
+
+.icon-box {
+    background: #dbeafe;
+    width: 52px;
+    height: 52px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1d4ed8;
+    font-size: 1.4rem;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        min-height: auto;
+    }
+}
